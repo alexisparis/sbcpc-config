@@ -1,5 +1,14 @@
-spring.application.name=sbcpc-config-consumer
-# N.B. this is the default:
-spring.cloud.config.uri=http://localhost:8888
-management.security.enabled=false
-server.port = 9999
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+  application:
+    name: sbcpc-config-consumer
+management:
+  security:
+    enabled: false
+server:
+  port: 9999
+health:
+  config:
+    enabled: false
