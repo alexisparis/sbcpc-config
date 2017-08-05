@@ -1,0 +1,14 @@
+management:
+  security:
+    enabled: false
+server:
+  port: 9999
+health:
+  config:
+    enabled: false
+
+group1:
+  a: a_prod
+  b: overwritten_prod
+  c: c_prod
+
