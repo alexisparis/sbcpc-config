@@ -6,3 +6,9 @@ server:
 health:
   config:
     enabled: false
+
+group1:
+  a: a
+  b: overwritten
+  c: c
+
