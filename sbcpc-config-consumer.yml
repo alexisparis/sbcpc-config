@@ -7,6 +7,6 @@ health:
 
 group1:
   a: a
-  b: overwritten blablabla
+  b: overwritten bliblibli
   c: c
 
