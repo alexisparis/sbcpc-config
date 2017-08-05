@@ -9,6 +9,6 @@ health:
 
 group1:
   a: a_prod
-  b: overwritten_prod
+  b: overwritten_prod_a
   c: c_prod
 
